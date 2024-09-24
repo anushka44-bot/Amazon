@@ -1,10 +1,51 @@
 *{
     margin: 0%;
     font-family: Arial;
-    border: border-box;
+    /* border: border-box; */
 }
 .navbar{
-    height: 60px;
-    background-color: #0f11;
-    
+    height: 50px;
+    background-color:black;
+    color: white;  
+    display: flex; 
+    align-items: center;
+}
+.nav-logo{
+    height: 40px;
+    width: 100px;
+}
+.logo{
+    padding-top: 10px;
+    padding-left: 7px;
+}
+.border{
+    width: 6%;
+    border: 1.5px solid transparent;
+}
+.border:hover{
+    border: 1.5px solid white;
+}
+
+/* Box 2 */
+
+.add-first{
+    padding-top: 2px;
+    color: #cccccc;
+    font-size:  12px;
+    margin-left: 15px;
+}
+.add-second{
+    font-size: 20px;
+    margin-left: 3px;
+}
+.add-icon{
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+}
+.nav-search{
+    display: flex;
+    width: 620px;
+    background-color: orange;
+    height: 40px;
 }
