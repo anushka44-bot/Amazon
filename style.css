@@ -77,3 +77,12 @@
     border-bottom-right-radius:4px;
     color: black;
 }
+
+/* Box 4 */
+span{
+    font-size: 0.7rem;
+}
+.nav-second{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
