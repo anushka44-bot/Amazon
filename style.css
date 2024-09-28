@@ -101,6 +101,10 @@ span{
     font-weight: 700;
 }
 
+.nav-order{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
 /* Panel */
 
 .panel{
@@ -129,5 +133,24 @@ span{
 .hero-section{
     background-image: url("Hero_Image.jpg");
     background-size:cover;
-    height: 600px;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.hero-msg{
+    background-color: white;
+    color: black;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85rem;
+    bottom: 25px;
+    position: relative;
+    width: 80%;
+    margin-bottom: 25px;
+}
+.hero-msg a {
+    color: #007189;
 }
