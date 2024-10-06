@@ -158,6 +158,7 @@ span{
 
 .shop-section{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
     background-color: pink;
 }
@@ -181,4 +182,18 @@ span{
 }
 .box-content p{
     color:#007185;
+}
+
+/* Fotter */
+.fotter{
+    margin-top: 15px;
+}
+.foot-panel1{
+    background-color: #37475a;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
 }
